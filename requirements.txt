@@ -1,0 +1,2 @@
+# Runtime: the only third-party dependency. Everything else is the Python standard library.
+PySide6>=6.6,<7

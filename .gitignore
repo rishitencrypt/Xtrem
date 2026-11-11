@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Local databases and user data
+*.db
+*.sqlite
+*.sqlite3
+data/
+storage/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# Build files
+build/
+dist/
